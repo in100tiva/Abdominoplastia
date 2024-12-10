@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdominoplastia - Centro Avançado de Cirurgia Plástica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <!-- Header com Navigation -->
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <h1>Centro Cirúrgico</h1>
+        </div>
+        <div class="nav-links">
+          <a href="#inicio">Início</a>
+          <a href="#procedimento">O Procedimento</a>
+          <a href="#cuidados">Cuidados</a>
+          <a href="#resultados">Resultados</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <span class="hero-tag">Procedimento Especializado</span>
+        <h1>Abdominoplastia</h1>
+        <p>Procedimento cirúrgico avançado realizado por especialistas, proporcionando resultados seguros e naturais</p>
+        <button class="btn-info" data-modal="procedure">
+          Saiba mais sobre o procedimento
+          <span class="btn-icon">ℹ️</span>
+        </button>
+      </div>
+      <div class="hero-cards">
+        <div class="stat-card">
+          <span class="stat-number">15+</span>
+          <span class="stat-text">Anos de Experiência</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">2000+</span>
+          <span class="stat-text">Cirurgias Realizadas</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">98%</span>
+          <span class="stat-text">Satisfação dos Pacientes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção O Procedimento -->
+    <section class="procedure-section" id="procedimento">
+      <div class="container">
+        <h2 class="section-title">O Procedimento</h2>
+        <div class="procedure-content">
+          <div class="procedure-text">
+            <p class="highlight-text">A abdominoplastia é uma cirurgia que visa remodelar o abdômen, removendo o excesso de pele e gordura, além de corrigir a musculatura abdominal quando necessário.</p>
+            <div class="procedure-steps">
+              <div class="step">
+                <span class="step-number">01</span>
+                <h3>Avaliação Inicial</h3>
+                <p>Análise detalhada do abdômen e definição do plano cirúrgico personalizado.</p>
+                <button class="btn-info-small" data-modal="avaliacao">Mais detalhes</button>
+              </div>
+              <div class="step">
+                <span class="step-number">02</span>
+                <h3>Preparação</h3>
+                <p>Orientações específicas e exames pré-operatórios para garantir sua segurança.</p>
+                <button class="btn-info-small" data-modal="preparacao">Mais detalhes</button>
+              </div>
+              <div class="step">
+                <span class="step-number">03</span>
+                <h3>Procedimento</h3>
+                <p>Cirurgia realizada com técnicas modernas e equipe especializada.</p>
+                <button class="btn-info-small" data-modal="cirurgia">Mais detalhes</button>
+              </div>
+              <div class="step">
+                <span class="step-number">04</span>
+                <h3>Recuperação</h3>
+                <p>Acompanhamento próximo e cuidados específicos para garantir os melhores resultados.</p>
+                <button class="btn-info-small" data-modal="recuperacao">Mais detalhes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Cuidados -->
+    <section class="care-section" id="cuidados">
+      <div class="container">
+        <h2 class="section-title">Cuidados Essenciais</h2>
+        <div class="care-grid">
+          <div class="care-card">
+            <div class="care-icon">🌟</div>
+            <h3>Cuidados Imediatos</h3>
+            <ul>
+              <li>Repouso adequado nas primeiras semanas</li>
+              <li>Movimentação suave e progressiva</li>
+              <li>Acompanhamento da cicatrização</li>
+            </ul>
+            <button class="btn-info-outline" data-modal="cuidados">
+              Ver todos os cuidados
+            </button>
+          </div>
+          <div class="care-card">
+            <div class="care-icon">🥗</div>
+            <h3>Alimentação</h3>
+            <ul>
+              <li>Dieta rica em proteínas</li>
+              <li>Hidratação adequada</li>
+              <li>Suplementação conforme orientação</li>
+            </ul>
+            <button class="btn-info-outline" data-modal="alimentacao">
+              Ver dicas de alimentação
+            </button>
+          </div>
+          <div class="care-card">
+            <div class="care-icon">👕</div>
+            <h3>Uso da Cinta</h3>
+            <ul>
+              <li>Uso contínuo por 30 dias</li>
+              <li>Ajuste adequado</li>
+              <li>Troca conforme orientação</li>
+            </ul>
+            <button class="btn-info-outline" data-modal="cinta">
+              Ver orientações completas
+            </button>
+          </div>
+          <div class="care-card">
+            <div class="care-icon">💆‍♀️</div>
+            <h3>Fisioterapia</h3>
+            <ul>
+              <li>Drenagem linfática especializada</li>
+              <li>Exercícios orientados</li>
+              <li>Tratamentos complementares</li>
+            </ul>
+            <button class="btn-info-outline" data-modal="fisioterapia">
+              Ver tratamentos recomendados
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Resultados -->
+    <section class="results-section" id="resultados">
+      <div class="container">
+        <h2 class="section-title">Resultados</h2>
+        <div class="results-content">
+          <div class="results-text">
+            <h3>Transformação Completa</h3>
+            <p>Os resultados da abdominoplastia são notados gradualmente, com a evolução completa em até 6 meses após o procedimento.</p>
+            <ul class="results-list">
+              <li>Abdômen mais firme e definido</li>
+              <li>Remoção do excesso de pele</li>
+              <li>Correção da diástase abdominal</li>
+              <li>Melhora da autoestima</li>
+            </ul>
+            <button class="btn-info" data-modal="resultados">
+              Ver processo completo de recuperação
+            </button>
+          </div>
+          <div class="results-stats">
+            <div class="stat-box">
+              <span class="stat-value">97%</span>
+              <span class="stat-label">Índice de Satisfação</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-value">30</span>
+              <span class="stat-label">Dias de Recuperação</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-value">6</span>
+              <span class="stat-label">Meses para Resultado Final</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>Centro Cirúrgico</h3>
+            <p>Excelência em cirurgia plástica com tecnologia e profissionalismo</p>
+          </div>
+          <div class="footer-links">
+            <h4>Links Rápidos</h4>
+            <a href="#inicio">Início</a>
+            <a href="#procedimento">O Procedimento</a>
+            <a href="#cuidados">Cuidados</a>
+            <a href="#resultados">Resultados</a>
+          </div>
+          <div class="footer-contact">
+            <h4>Contato</h4>
+            <p>📞 (11) 99999-9999</p>
+            <p>📧 contato@centrocirurgico.com</p>
+            <p>📍 São Paulo, SP</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 Centro Cirúrgico. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="modal.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+
+</html>
